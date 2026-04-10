@@ -1,31 +1,15 @@
-%fs-base {
-  font-size: 20px;
-}
+// The Code
+// Do Not Edit Here
+$red: #e91e63;
+$green: #009688;
 
-$fw-bold: bold;
+$link-color: $green;
+$link-hover: $red;
 
-$max-mobile: 575px;
-
-.box {
-  h2 {
-    @extend %fs-base;
-  }
-  p {
-    @extend %fs-base;
-  }
-}
-
-@media (max-width: $max-mobile) {
-  %fs-base {
-    font-size: 16px;
-  }
-
-  .box {
-    h2,
-    p {
-      span {
-        font-weight: $fw-bold;
-      }
-    }
+// Do Not Edit Here
+.box a {
+  color: $link-color;
+  &:hover {
+    color: $link-hover;
   }
 }

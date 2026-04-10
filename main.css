@@ -1,13 +1,6 @@
-.box p, .box h2 {
-  font-size: 20px;
+.box a {
+  color: #009688;
 }
-
-@media (max-width: 575px) {
-  .box h2, .box p {
-    font-size: 16px;
-  }
-  .box h2 span,
-  .box p span {
-    font-weight: bold;
-  }
+.box a:hover {
+  color: #e91e63;
 }/*# sourceMappingURL=main.css.map */
