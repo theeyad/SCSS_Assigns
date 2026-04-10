@@ -1,13 +1,13 @@
-.my-class {
-  background-color: white;
-  padding: 20px;
+.box p, .box h2 {
+  font-size: 20px;
 }
 
-.my-class {
-  border: 1px solid #ccc;
-}
-
-.my-class {
-  font-weight: bold;
-  margin: 20px auto;
+@media (max-width: 575px) {
+  .box h2, .box p {
+    font-size: 16px;
+  }
+  .box h2 span,
+  .box p span {
+    font-weight: bold;
+  }
 }/*# sourceMappingURL=main.css.map */
