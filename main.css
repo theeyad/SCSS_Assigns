@@ -1,7 +1,13 @@
-.parent + .sibling {
-  margin: auto;
-  margin-top: 10px;
+.widget, .my-class {
+  background-color: white;
+  padding: 20px;
 }
-.parent + .sibling ~ .last {
-  padding: 10px;
+
+.main-border, .my-class {
+  border: 1px solid #ccc;
+}
+
+.my-class {
+  font-weight: bold;
+  margin: 20px auto;
 }/*# sourceMappingURL=main.css.map */

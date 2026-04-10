@@ -1,21 +1,13 @@
-.parent {
-  & + .sibling {
-    margin: auto {
-      top: 10px;
-    }
-    & ~ .last {
-      padding: 10px;
-    }
-  }
+.widget {
+  background-color: white;
+  padding: 20px;
 }
-
-// Explaining:
-
-// .parent + .sibling {
-// margin: auto;
-// margin-top: 10px;
-// }
-
-// .parent + .sibling ~ .last {
-// padding: 10px;
-// }
+.main-border {
+  border: 1px solid #ccc;
+}
+.my-class {
+  @extend .widget;
+  @extend .main-border;
+  font-weight: bold;
+  margin: 20px auto;
+}
