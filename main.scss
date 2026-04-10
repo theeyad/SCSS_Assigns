@@ -1,19 +1,8 @@
-// .class > {
-//   .child {
-//     padding: 10px;
-//   }
-// }
-
-// .class {
-//   > {
-//     .child {
-//       padding: 10px;
-//     }
-//   }
-// }
+%temp1 {
+  font-weight: bold;
+  font-size: 20px;
+}
 
 .class {
-  > .child {
-    padding: 10px;
-  }
+  @extend %temp1;
 }
