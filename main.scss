@@ -1,8 +1,21 @@
-%temp1 {
-  font-weight: bold;
-  font-size: 20px;
+.parent {
+  & + .sibling {
+    margin: auto {
+      top: 10px;
+    }
+    & ~ .last {
+      padding: 10px;
+    }
+  }
 }
 
-.class {
-  @extend %temp1;
-}
+// Explaining:
+
+// .parent + .sibling {
+// margin: auto;
+// margin-top: 10px;
+// }
+
+// .parent + .sibling ~ .last {
+// padding: 10px;
+// }

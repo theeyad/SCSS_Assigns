@@ -1,4 +1,7 @@
-.class {
-  font-weight: bold;
-  font-size: 20px;
+.parent + .sibling {
+  margin: auto;
+  margin-top: 10px;
+}
+.parent + .sibling ~ .last {
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
