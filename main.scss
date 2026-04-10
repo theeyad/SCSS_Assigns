@@ -1,4 +1,9 @@
-@use "./SCSS/Helpers/vars";
-@use "./SCSS/Helpers/functions";
-@use "./SCSS/Layout/header";
-@use "./SCSS/Layout/footer";
+.box {
+  font-size: 20px;
+  &-holder {
+    width: 1000px;
+    &-content {
+      margin: auto;
+    }
+  }
+}
