@@ -1,15 +1,4 @@
-// The Code
-// Do Not Edit Here
-$red: #e91e63;
-$green: #009688;
-
-$link-color: $green;
-$link-hover: $red;
-
-// Do Not Edit Here
-.box a {
-  color: $link-color;
-  &:hover {
-    color: $link-hover;
-  }
-}
+@use "./SCSS/Helpers/vars";
+@use "./SCSS/Helpers/functions";
+@use "./SCSS/Layout/header";
+@use "./SCSS/Layout/footer";
