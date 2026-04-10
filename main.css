@@ -1,15 +1,3 @@
-.content > .box {
-  padding: 15px;
-}
-.content > .box > .title {
-  font-size: 18px;
-}
-.content .cat {
-  padding: 15px;
-}
-.content.premium::before {
-  content: "Premium Box";
-}
-.content.premium::hover {
-  background-color: #eee;
+.class > .child {
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
