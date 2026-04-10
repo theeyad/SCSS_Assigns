@@ -1,9 +1,22 @@
-.box {
-  font-size: 20px;
-  &-holder {
-    width: 1000px;
-    &-content {
-      margin: auto;
-    }
+$main: "school";
+$child: "box";
+$language: "en"; // English
+$gap: 20px;
+
+.#{$main} {
+  padding: $gap;
+  @if $language == "en" {
+    direction: ltr;
+  } @else {
+    direction: rtl;
+  }
+  margin-left: $gap;
+
+  &-#{$child} {
+    padding: calc($gap / 2);
+  }
+
+  &:hover &-#{$child} {
+    background-color: #eee;
   }
 }

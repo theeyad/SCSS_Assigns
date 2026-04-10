@@ -1,9 +1,11 @@
-.box {
-  font-size: 20px;
+.school {
+  padding: 20px;
+  direction: ltr;
+  margin-left: 20px;
 }
-.box-holder {
-  width: 1000px;
+.school-box {
+  padding: 10px;
 }
-.box-holder-content {
-  margin: auto;
+.school:hover .school-box {
+  background-color: #eee;
 }/*# sourceMappingURL=main.css.map */
