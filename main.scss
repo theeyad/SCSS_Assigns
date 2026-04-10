@@ -1,22 +1,7 @@
-$main: "school";
-$child: "box";
-$language: "en"; // English
-$gap: 20px;
+// SASS Code
+$main-color: red;
+$alt-color: blue;
 
-.#{$main} {
-  padding: $gap;
-  @if $language == "en" {
-    direction: ltr;
-  } @else {
-    direction: rtl;
-  }
-  margin-left: $gap;
-
-  &-#{$child} {
-    padding: calc($gap / 2);
-  }
-
-  &:hover &-#{$child} {
-    background-color: #eee;
-  }
-}
+/* Theme Version: 1.0 */
+/* Website Theme Main Color Is: #{$main-color} */
+/* Website Theme Alternate Color Is: #{$alt-color} */
