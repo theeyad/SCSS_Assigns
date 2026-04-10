@@ -1,12 +1,13 @@
 // SASS Code
-$number: 10;
-$color: red;
-$theme: light;
+$number: 8;
 
-// Write If Condition Code Here
-
-.class {
-  @if not($number < 5) and $color == red and not ($theme == "dark") {
-    color: $color;
+// Output
+.box {
+  @if $number == 10 {
+    background-color: #eee;
+    text-align: center;
+  } @else if $number == 9 {
+    background-color: #eee;
+  } @else {
   }
 }
