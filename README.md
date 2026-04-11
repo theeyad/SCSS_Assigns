@@ -1,3 +1,3 @@
-# SCSS_Assigns
+# SASS_Assigns
 
 SASS Tasks
