@@ -1,6 +1,13 @@
-textarea::-moz-placeholder {
-  color: #777;
+.box-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
 }
-textarea::placeholder {
-  color: #777;
+
+.box-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
 }/*# sourceMappingURL=main.css.map */
