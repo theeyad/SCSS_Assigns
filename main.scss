@@ -1,7 +1,13 @@
-@for $i from 1 through 5 {
-  .circle-#{$i * 100} {
-    width: $i * 100px;
-    height: $i * 100px;
-    border-radius: $i * 50px;
+// // Write Mixin Code Here
+@mixin placeholder {
+  &::placeholder {
+    @content;
+  }
+}
+
+// // Using
+textarea {
+  @include placeholder {
+    color: #777;
   }
 }
