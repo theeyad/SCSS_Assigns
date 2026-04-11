@@ -1,17 +1,11 @@
-$names:
-  "books" 20px red 18,
-  "games" 30px green 18,
-  "dvds" 20px blue;
+$init: 1;
 
-@each $name, $p, $color, $fs in $names {
-  .#{unquote($name)} {
-    padding: $p;
-    @if $fs {
-      font-size: #{$fs}px;
-    } @else {
-      font-size: 16px;
-    }
-    border-bottom: 2px solid $color;
-    color: #444;
+@while $init <=5 {
+  .circle-#{$init * 100} {
+    width: $init * 100px;
+    height: $init * 100px;
+    border-radius: $init * 50px;
   }
+
+  $init: $init + 1;
 }
