@@ -1,7 +1,17 @@
-$grid-columns: 16;
+$names:
+  "books" 20px red 18,
+  "games" 30px green 18,
+  "dvds" 20px blue;
 
-@for $i from 1 through $grid-columns {
-  .col-#{$i} {
-    width: percentage($i / $grid-columns);
+@each $name, $p, $color, $fs in $names {
+  .#{unquote($name)} {
+    padding: $p;
+    @if $fs {
+      font-size: #{$fs}px;
+    } @else {
+      font-size: 16px;
+    }
+    border-bottom: 2px solid $color;
+    color: #444;
   }
 }

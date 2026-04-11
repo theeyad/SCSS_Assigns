@@ -1,63 +1,20 @@
-.col-1 {
-  width: 6.25%;
+.books {
+  padding: 20px;
+  font-size: 18px;
+  border-bottom: 2px solid red;
+  color: #444;
 }
 
-.col-2 {
-  width: 12.5%;
+.games {
+  padding: 30px;
+  font-size: 18px;
+  border-bottom: 2px solid green;
+  color: #444;
 }
 
-.col-3 {
-  width: 18.75%;
-}
-
-.col-4 {
-  width: 25%;
-}
-
-.col-5 {
-  width: 31.25%;
-}
-
-.col-6 {
-  width: 37.5%;
-}
-
-.col-7 {
-  width: 43.75%;
-}
-
-.col-8 {
-  width: 50%;
-}
-
-.col-9 {
-  width: 56.25%;
-}
-
-.col-10 {
-  width: 62.5%;
-}
-
-.col-11 {
-  width: 68.75%;
-}
-
-.col-12 {
-  width: 75%;
-}
-
-.col-13 {
-  width: 81.25%;
-}
-
-.col-14 {
-  width: 87.5%;
-}
-
-.col-15 {
-  width: 93.75%;
-}
-
-.col-16 {
-  width: 100%;
+.dvds {
+  padding: 20px;
+  font-size: 16px;
+  border-bottom: 2px solid blue;
+  color: #444;
 }/*# sourceMappingURL=main.css.map */
