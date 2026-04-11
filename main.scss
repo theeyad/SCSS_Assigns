@@ -1,11 +1,7 @@
-$init: 1;
-
-@while $init <=5 {
-  .circle-#{$init * 100} {
-    width: $init * 100px;
-    height: $init * 100px;
-    border-radius: $init * 50px;
+@for $i from 1 through 5 {
+  .circle-#{$i * 100} {
+    width: $i * 100px;
+    height: $i * 100px;
+    border-radius: $i * 50px;
   }
-
-  $init: $init + 1;
 }
